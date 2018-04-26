@@ -11,13 +11,22 @@
 #
 # no -- there are numbers but they have nothing to do with versioning,
 #
+# yes -- there is a versioning in the namespace which is tied to the version
+#   of the defining specification. There exists more than one version and it seems
+#   that the next revision will likely change the namespace URI.
+#
 # yes-intended -- there is a versioning in the namespace which is tied to the version
 #   of the defining specification. So far there is only one version of the specification
 #   and of the namespace
 #
+# yes-stuck -- there is versioning in the namespace which is tied to the version
+#   of the defining specification. There exists more than one version but it seems
+#   that the current latest revision is now unlikely to change.
+#
 # stuck -- there appears to be an intent of versioning but this is v1, 0.1, or
-#   an old date which is not expected to change (e.g. foaf is stuck on 0.1), also
-#   include here moribund ontologies with apparent intent to version
+#   an old date which is not expected to change (e.g. foaf is stuck on 0.1)
+#
+# stuck-dead - like stuck but the ontology appears dead or moribund
 #
 # unknown -- no assessment has been made
 #
@@ -49,25 +58,29 @@
   :notes "Major version only, update 1.1.19 in 2016".
 <http://www.w3.org/2004/03/trix/rdfg-1/>
   vann:preferredNamespacePrefix "rdfg";
-  :versioning "unknown".
+  :versioning "stuck".
 <http://purl.org/goodrelations/v1>
   vann:preferredNamespacePrefix "gr";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Stable since 2011".
 <http://www.w3.org/2002/12/cal/ical>
   vann:preferredNamespacePrefix "cal";
   :versioning "stuck".
 <http://ns.bergnet.org/tac/0.1/triple-access-control>
   vann:preferredNamespacePrefix "tac";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Stable since 2011".
 <http://www.w3.org/2008/05/skos-xl>
   vann:preferredNamespacePrefix "skosxl";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Namespaced retained in 2009/08 revision of spec".
 <http://www.essepuntato.it/2012/04/tvc>
   vann:preferredNamespacePrefix "tvc";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Stable since 2012".
 <http://purl.org/dc/elements/1.1/>
   vann:preferredNamespacePrefix "dce";
-  :versioning "unknown".
+  :versioning "yes-stuck".
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation>
   vann:preferredNamespacePrefix "om";
   :versioning "no".
@@ -76,28 +89,32 @@
   :versioning "no".
 <http://www.w3.org/2004/03/trix/swp-1>
   vann:preferredNamespacePrefix "swp";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Stable old W3C spec, unlikely to be updated".
 <http://vocab.deri.ie/c4n>
   vann:preferredNamespacePrefix "c4n";
   :versioning "no".
 <http://spi-fm.uca.es/spdef/models/genericTools/itm/1.0>
   vann:preferredNamespacePrefix "itm";
-  :versioning "unknown".
+  :versioning "stuck-dead".
 <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
   vann:preferredNamespacePrefix "nif";
   :versioning "no".
 <http://inference-web.org/2.0/pml-provenance.owl>
   vann:preferredNamespacePrefix "pmlp";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Looks like this was a new ontology for v2.0 of the project in 2009/2010 which hasn't moved on. There isn't and I don't was a 1.0 or 1.1, see http://inference-web.org/2.0/".
 <http://reference.data.gov.au/def/ont/iso19160-1-address>
   vann:preferredNamespacePrefix "isoadr";
   :versioning "no".
 <http://purl.org/healthcarevocab/v1>
   vann:preferredNamespacePrefix "dicom";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Looks like isolated effort around 2011, see http://purl.org/healthcarevocab/v1help".
 <http://simile.mit.edu/2003/10/ontologies/vraCore3#>
   vann:preferredNamespacePrefix "vra";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Effort to create onology for VRA Core 3 model which has an idea of versioning on the major version. Date appears to be just copying W3C style. However, VRA Core 4 is current version and there doesn't appear to be and RDF version, and the WSX namespace is http://www.vraweb.org/vracore4.htm".
 <http://purl.org/vocab/bio/0.1/>
   vann:preferredNamespacePrefix "bio";
   :versioning "unknown".
@@ -118,7 +135,8 @@
   :versioning "no".
 <http://www.w3.org/2005/Incubator/ssn/ssnx/ssn>
   vann:preferredNamespacePrefix "ssn";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Plabs to move to http://www.w3.org/ns/ssn/".
 <http://www.w3.org/2006/03/test-description>
   vann:preferredNamespacePrefix "test";
   :versioning "unknown".
