@@ -1,0 +1,444 @@
+# This is a Turtle dataset with manual assessments of the versioning status of
+# ontologies which have at least one digit in the path of the namespace. The format
+# of this data is entries of the form:
+#
+# <namespace>
+#   vann:preferredNamespacePrefix "prefix";
+#   :versioning "status".
+#
+# where prefix is the namespace prefix, and status is the manual assessment of
+# versioning status from the following set:
+#
+# no -- there are numbers but they have nothing to do with versioning,
+#
+# yes-intended -- there is a versioning in the namespace which is tied to the version
+#   of the defining specification. So far there is only one version of the specification
+#   and of the namespace
+#
+# stuck -- there appears to be an intent of versioning but this is v1, 0.1, or
+#   an old date which is not expected to change (e.g. foaf is stuck on 0.1), also
+#   include here moribund ontologies with apparent intent to version
+#
+# unknown -- no assessment has been made
+#
+# Source data taken from http://lov.okfn.org/dataset/lov/sparql
+
+@prefix : <http://zimeon.com/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<http://purl.org/iso25964/skos-thes>
+  vann:preferredNamespacePrefix "iso-thes";
+  :versioning "no".
+<http://www.semanticdesktop.org/ontologies/2007/08/15/nao>
+  vann:preferredNamespacePrefix "nao";
+  :versioning "stuck";
+  :notes "Project ended, moribund".
+<https://w3id.org/saref4ee>
+  vann:preferredNamespacePrefix "s4ee";
+  :versioning "no".
+<http://purl.org/iot/vocab/m3-lite#>
+  vann:preferredNamespacePrefix "m3lite";
+  :versioning "no".
+<http://purl.org/LiMo/0.1#>
+  vann:preferredNamespacePrefix "limoo";
+  :versioning "stuck";
+  :notes "Moribund".
+<http://linkeddata.center/kees/v1>
+  vann:preferredNamespacePrefix "kees";
+  :versioning "yes-intended";
+  :notes "Major version only, update 1.1.19 in 2016".
+<http://www.w3.org/2004/03/trix/rdfg-1/>
+  vann:preferredNamespacePrefix "rdfg";
+  :versioning "unknown".
+<http://purl.org/goodrelations/v1>
+  vann:preferredNamespacePrefix "gr";
+  :versioning "unknown".
+<http://www.w3.org/2002/12/cal/ical>
+  vann:preferredNamespacePrefix "cal";
+  :versioning "stuck".
+<http://ns.bergnet.org/tac/0.1/triple-access-control>
+  vann:preferredNamespacePrefix "tac";
+  :versioning "unknown".
+<http://www.w3.org/2008/05/skos-xl>
+  vann:preferredNamespacePrefix "skosxl";
+  :versioning "unknown".
+<http://www.essepuntato.it/2012/04/tvc>
+  vann:preferredNamespacePrefix "tvc";
+  :versioning "unknown".
+<http://purl.org/dc/elements/1.1/>
+  vann:preferredNamespacePrefix "dce";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation>
+  vann:preferredNamespacePrefix "om";
+  :versioning "no".
+<https://w3id.org/i40/rami/>
+  vann:preferredNamespacePrefix "rami";
+  :versioning "no".
+<http://www.w3.org/2004/03/trix/swp-1>
+  vann:preferredNamespacePrefix "swp";
+  :versioning "unknown".
+<http://vocab.deri.ie/c4n>
+  vann:preferredNamespacePrefix "c4n";
+  :versioning "no".
+<http://spi-fm.uca.es/spdef/models/genericTools/itm/1.0>
+  vann:preferredNamespacePrefix "itm";
+  :versioning "unknown".
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+  vann:preferredNamespacePrefix "nif";
+  :versioning "no".
+<http://inference-web.org/2.0/pml-provenance.owl>
+  vann:preferredNamespacePrefix "pmlp";
+  :versioning "unknown".
+<http://reference.data.gov.au/def/ont/iso19160-1-address>
+  vann:preferredNamespacePrefix "isoadr";
+  :versioning "no".
+<http://purl.org/healthcarevocab/v1>
+  vann:preferredNamespacePrefix "dicom";
+  :versioning "unknown".
+<http://simile.mit.edu/2003/10/ontologies/vraCore3#>
+  vann:preferredNamespacePrefix "vra";
+  :versioning "unknown".
+<http://purl.org/vocab/bio/0.1/>
+  vann:preferredNamespacePrefix "bio";
+  :versioning "unknown".
+<http://www.essepuntato.it/2013/10/vagueness>
+  vann:preferredNamespacePrefix "vag";
+  :versioning "unknown".
+<http://www.semanticdesktop.org/ontologies/2007/03/22/nco>
+  vann:preferredNamespacePrefix "nco";
+  :versioning "unknown".
+<http://purl.org/dqm-vocabulary/v1/dqm>
+  vann:preferredNamespacePrefix "dqm";
+  :versioning "unknown".
+<http://www.w3.org/2000/01/rdf-schema#>
+  vann:preferredNamespacePrefix "rdfs";
+  :versioning "stuck".
+<http://ontology.eil.utoronto.ca/open311.owl>
+  vann:preferredNamespacePrefix "open311";
+  :versioning "no".
+<http://www.w3.org/2005/Incubator/ssn/ssnx/ssn>
+  vann:preferredNamespacePrefix "ssn";
+  :versioning "unknown".
+<http://www.w3.org/2006/03/test-description>
+  vann:preferredNamespacePrefix "test";
+  :versioning "unknown".
+<http://ontology.eil.utoronto.ca/ISO37120.owl>
+  vann:preferredNamespacePrefix "iso37120";
+  :versioning "no".
+<http://purl.org/NET/c4dm/timeline.owl>
+  vann:preferredNamespacePrefix "tl";
+  :versioning "no".
+<http://w3id.org/charta77/jup>
+  vann:preferredNamespacePrefix "jup";
+  :versioning "no".
+<http://www.w3.org/2007/05/powder-s>
+  vann:preferredNamespacePrefix "wdrs";
+  :versioning "unknown".
+<http://rdvocab.info/ElementsGr3>
+  vann:preferredNamespacePrefix "rdag3";
+  :versioning "no".
+<http://www.w3.org/ns/r2rml#>
+  vann:preferredNamespacePrefix "rr";
+  :versioning "no".
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry>
+  vann:preferredNamespacePrefix "gm";
+  :versioning "unknown".
+<http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine>
+  vann:preferredNamespacePrefix "vin";
+  :versioning "unknown".
+<http://www.ordnancesurvey.co.uk/ontology/Topography/v0.1/Topography.owl>
+  vann:preferredNamespacePrefix "ostop";
+  :versioning "unknown".
+<http://www.w3.org/1999/xhtml/vocab>
+  vann:preferredNamespacePrefix "xhv";
+  :versioning "unknown".
+<http://xmlns.com/wot/0.1/>
+  vann:preferredNamespacePrefix "wot";
+  :versioning "stuck".
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0>
+  vann:preferredNamespacePrefix "spcm";
+  :versioning "unknown".
+<http://www.disit.org/km4city/schema>
+  vann:preferredNamespacePrefix "km4c";
+  :versioning "no".
+<http://www.w3.org/2001/sw/hcls/ns/transmed/>
+  vann:preferredNamespacePrefix "tmo";
+  :versioning "stuck".
+<http://xmlns.com/foaf/0.1/>
+  vann:preferredNamespacePrefix "foaf";
+  :versioning "stuck".
+<http://www.eurocris.org/ontologies/cerif/1.3>
+  vann:preferredNamespacePrefix "cerif";
+  :versioning "yes-intended";
+  :notes "CERIF 1.3 is the first version defined in RDF. 1.2 and earlier were defined as XML schemas so it is not clear whether the RDF namespace will in practice be versioned".
+<http://data.ordnancesurvey.co.uk/ontology/50kGazetteer/>
+  vann:preferredNamespacePrefix "g50k";
+  :versioning "no".
+<http://purl.org/wf4ever/wfdesc>
+  vann:preferredNamespacePrefix "wfdesc";
+  :versioning "no".
+<http://www.w3.org/2000/10/swap/log>
+  vann:preferredNamespacePrefix "log";
+  :versioning "stuck".
+<http://ns.inria.fr/ludo/v1/gamemodel#>
+  vann:preferredNamespacePrefix "ludo-gm";
+  :versioning "unknown".
+<http://ns.inria.fr/prissma/v2#>
+  vann:preferredNamespacePrefix "prissma";
+  :versioning "unknown".
+<http://www.w3.org/2006/time>
+  vann:preferredNamespacePrefix "time";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage>
+  vann:preferredNamespacePrefix "li";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/metadata>
+  vann:preferredNamespacePrefix "md";
+  :versioning "unknown".
+<https://w3id.org/i40/sto#>
+  vann:preferredNamespacePrefix "sto";
+  :versioning "no".
+<http://www.semanticdesktop.org/ontologies/2007/03/22/nfo>
+  vann:preferredNamespacePrefix "nfo";
+  :versioning "unknown".
+<http://www.loc.gov/mads/rdf/v1>
+  vann:preferredNamespacePrefix "mads";
+  :versioning "yes-intended".
+<http://semanticweb.cs.vu.nl/2009/11/sem/>
+  vann:preferredNamespacePrefix "sem";
+  :versioning "unknown".
+<http://www.loc.gov/premis/rdf/v1>
+  vann:preferredNamespacePrefix "premis";
+  :versioning "yes-intended".
+<http://www.daml.org/2001/09/countries/iso-3166-ont>
+  vann:preferredNamespacePrefix "coun";
+  :versioning "stuck".
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic>
+  vann:preferredNamespacePrefix "h2o";
+  :versioning "unknown".
+<http://www.w3.org/2000/10/swap/pim/doc>
+  vann:preferredNamespacePrefix "doc";
+  :versioning "stuck".
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic>
+  vann:preferredNamespacePrefix "basic";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality>
+  vann:preferredNamespacePrefix "dq";
+  :versioning "unknown".
+<http://www.w3.org/2003/01/geo/wgs84_pos>
+  vann:preferredNamespacePrefix "geo";
+  :versioning "unknown".
+<https://w3id.org/i40/aml>
+  vann:preferredNamespacePrefix "aml";
+  :versioning "no".
+<http://www.w3.org/2001/02pd/rec54#>
+  vann:preferredNamespacePrefix "rec54";
+  :versioning "stuck".
+<http://swrc.ontoware.org/ontology-07>
+  vann:preferredNamespacePrefix "swrc";
+  :versioning "unknown".
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/>
+  vann:preferredNamespacePrefix "tag";
+  :versioning "unknown".
+<http://www.essepuntato.it/2008/12/pattern>
+  vann:preferredNamespacePrefix "pattern";
+  :versioning "unknown".
+<http://metadataregistry.org/uri/schema/RDARelationshipsGR2>
+  vann:preferredNamespacePrefix "rdarel2";
+  :versioning "no".
+<http://inference-web.org/2.0/ds.owl>
+  vann:preferredNamespacePrefix "dso";
+  :versioning "unknown".
+<http://purl.org/spar/c4o>
+  vann:preferredNamespacePrefix "c4o";
+  :versioning "no".
+<http://www.semanticdesktop.org/ontologies/2007/08/15/nrl>
+  vann:preferredNamespacePrefix "nrl";
+  :versioning "unknown".
+<http://ns.inria.fr/ludo/v1/virtualcontext#>
+  vann:preferredNamespacePrefix "ludo-vc";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal>
+  vann:preferredNamespacePrefix "tm";
+  :versioning "unknown".
+<http://ns.inria.fr/ludo/v1/gamepresentation#>
+  vann:preferredNamespacePrefix "ludo-gp";
+  :versioning "unknown".
+<http://www.w3.org/ns/odrl/2/>
+  vann:preferredNamespacePrefix "odrl";
+  :versioning "unknown".
+<http://spi-fm.uca.es/spdef/models/deployment/swpm/1.0>
+  vann:preferredNamespacePrefix "swpm";
+  :versioning "unknown".
+<http://purl.org/gen/0.1#>
+  vann:preferredNamespacePrefix "gen";
+  :versioning "unknown".
+<http://www.ebusiness-unibw.org/ontologies/consumerelectronics/v1>
+  vann:preferredNamespacePrefix "ceo";
+  :versioning "unknown".
+<http://purl.org/linked-data/sdmx/2009/dimension>
+  vann:preferredNamespacePrefix "sdmx-dimension";
+  :versioning "unknown".
+<http://www.w3.org/2006/time-entry>
+  vann:preferredNamespacePrefix "te";
+  :versioning "unknown".
+<http://ns.inria.fr/nicetag/2010/09/09/voc>
+  vann:preferredNamespacePrefix "ntag";
+  :versioning "unknown".
+<http://spi-fm.uca.es/spdef/models/genericTools/vmm/1.0>
+  vann:preferredNamespacePrefix "vmm";
+  :versioning "unknown".
+<http://www.w3.org/2003/12/exif/ns>
+  vann:preferredNamespacePrefix "exif";
+  :versioning "stuck".
+<http://spi-fm.uca.es/spdef/models/genericTools/wikim/1.0>
+  vann:preferredNamespacePrefix "wikim";
+  :versioning "unknown".
+<http://www.w3.org/2004/09/fresnel>
+  vann:preferredNamespacePrefix "fresnel";
+  :versioning "unknown".
+<http://www.w3.org/2011/http>
+  vann:preferredNamespacePrefix "http";
+  :versioning "unknown".
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#>
+  vann:preferredNamespacePrefix "rlog";
+  :versioning "no".
+<http://ns.inria.fr/s4ac/v2>
+  vann:preferredNamespacePrefix "s4ac";
+  :versioning "unknown".
+<http://www.w3.org/2003/06/sw-vocab-status/ns>
+  vann:preferredNamespacePrefix "vs";
+  :versioning "stuck".
+<http://www.w3.org/2006/vcard/ns>
+  vann:preferredNamespacePrefix "vcard";
+  :versioning "unknown".
+<http://www.biopax.org/release/biopax-level3.owl>
+  vann:preferredNamespacePrefix "biopax";
+  :versioning "no".
+<http://bblfish.net/work/atom-owl/2006-06-06/>
+  vann:preferredNamespacePrefix "awol";
+  :versioning "unknown".
+<http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl>
+  vann:preferredNamespacePrefix "geof";
+  :versioning "unknown".
+<http://guava.iis.sinica.edu.tw/r4r>
+  vann:preferredNamespacePrefix "r4r";
+  :versioning "no".
+<http://purl.org/swan/2.0/discourse-relationships/>
+  vann:preferredNamespacePrefix "dr";
+  :versioning "unknown".
+<http://www.w3.org/2011/content>
+  vann:preferredNamespacePrefix "cnt";
+  :versioning "unknown".
+<http://www.w3.org/2000/10/swap/pim/contact>
+  vann:preferredNamespacePrefix "con";
+  :versioning "stuck".
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature>
+  vann:preferredNamespacePrefix "gf";
+  :versioning "unknown".
+<http://www.w3.org/2001/XMLSchema>
+  vann:preferredNamespacePrefix "xsd";
+  :versioning "stuck".
+<http://www.ics.forth.gr/isl/MarineTLO/v4/marinetlo.owl>
+  vann:preferredNamespacePrefix "mtlo";
+  :versioning "unknown".
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1>
+  vann:preferredNamespacePrefix "d2rq";
+  :versioning "unknown".
+<http://purl.org/wf4ever/wfprov>
+  vann:preferredNamespacePrefix "wfprov";
+  :versioning "no".
+<http://rdvocab.info/ElementsGr2>
+  vann:preferredNamespacePrefix "rdag2";
+  :versioning "no".
+<http://www.ontologydesignpatterns.org/ont/lmm/LMM_L2.owl>
+  vann:preferredNamespacePrefix "lmm2";
+  :versioning "no".
+<http://semweb.mmlab.be/ns/apps4X>
+  vann:preferredNamespacePrefix "apps4X";
+  :versioning "no".
+<http://www.essepuntato.it/2013/03/cito-functions>
+  vann:preferredNamespacePrefix "citof";
+  :versioning "unknown".
+<http://www.semanticdesktop.org/ontologies/2007/01/19/nie>
+  vann:preferredNamespacePrefix "nie";
+  :versioning "unknown".
+<http://www.w3.org/2002/07/owl>
+  vann:preferredNamespacePrefix "owl";
+  :versioning "stuck".
+<http://purl.org/rss/1.0>
+  vann:preferredNamespacePrefix "rss";
+  :versioning "unknown".
+<http://purl.org/linked-data/sdmx/2009/code>
+  vann:preferredNamespacePrefix "sdmx-code";
+  :versioning "unknown".
+<http://www.w3.org/TR/2003/PR-owl-guide-20031215/food>
+  vann:preferredNamespacePrefix "fowl";
+  :versioning "unknown".
+<http://privatealpha.com/ontology/certification/1#>
+  vann:preferredNamespacePrefix "acrt";
+  :versioning "unknown".
+<http://onto.dm2e.eu/schemas/dm2e>
+  vann:preferredNamespacePrefix "dm2e";
+  :versioning "no".
+<http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl>
+  vann:preferredNamespacePrefix "lmm1";
+  :versioning "no".
+<http://www.w3.org/2006/timezone>
+  vann:preferredNamespacePrefix "tzont";
+  :versioning "unknown".
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent>
+  vann:preferredNamespacePrefix "ext";
+  :versioning "stuck".
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling>
+  vann:preferredNamespacePrefix "sam";
+  :versioning "unknown".
+<http://brt.basisregistraties.overheid.nl/def/top10nl>
+  vann:preferredNamespacePrefix "brt";
+  :versioning "no".
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  vann:preferredNamespacePrefix "rdf";
+  :versioning "stuck".
+<http://www.lexinfo.net/ontology/2.0/lexinfo>
+  vann:preferredNamespacePrefix "lexinfo";
+  :versioning "unknown".
+<http://www.semanticweb.org/ontologies/2008/11/OntologySecurity.owl>
+  vann:preferredNamespacePrefix "ontosec";
+  :versioning "stuck".
+<http://www.w3.org/2006/gen/ont>
+  vann:preferredNamespacePrefix "gso";
+  :versioning "stuck".
+<http://purl.org/qb4olap/cubes>
+  vann:preferredNamespacePrefix "qb4o";
+  :versioning "no".
+<http://ontology.it/itsmo/v1>
+  vann:preferredNamespacePrefix "itsmo";
+  :versioning "unknown".
+<http://www.w3.org/2004/02/skos/core>
+  vann:preferredNamespacePrefix "skos";
+  :versioning "stuck".
+<http://ns.inria.fr/ludo/v1/xapi>
+  vann:preferredNamespacePrefix "ludo-xapi";
+  :versioning "unknown".
+<http://www.semanticdesktop.org/ontologies/2007/04/02/ncal>
+  vann:preferredNamespacePrefix "ncal";
+  :versioning "unknown".
+<http://www.w3.org/2003/11/swrl>
+  vann:preferredNamespacePrefix "swrl";
+  :versioning "stuck".
+<http://purl.org/NET/c4dm/event.owl>
+  vann:preferredNamespacePrefix "event";
+  :versioning "no".
+<http://purl.org/NET/c4dm/keys.owl>
+  vann:preferredNamespacePrefix "keys";
+  :versioning "no".
+<http://purl.org/net/vocab/2004/03/label>
+  vann:preferredNamespacePrefix "label";
+  :versioning "unknown".
+<http://www.w3.org/2003/g/data-view>
+  vann:preferredNamespacePrefix "grddl";
+  :versioning "unknown".
+<http://purl.org/wf4ever/ro>
+  vann:preferredNamespacePrefix "ro";
+  :versioning "no".
+
