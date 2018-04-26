@@ -40,8 +40,8 @@
   :versioning "no".
 <http://www.semanticdesktop.org/ontologies/2007/08/15/nao>
   vann:preferredNamespacePrefix "nao";
-  :versioning "stuck";
-  :notes "Project ended, moribund".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <https://w3id.org/saref4ee>
   vann:preferredNamespacePrefix "s4ee";
   :versioning "no".
@@ -83,7 +83,8 @@
   :versioning "yes-stuck".
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation>
   vann:preferredNamespacePrefix "om";
-  :versioning "no".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <https://w3id.org/i40/rami/>
   vann:preferredNamespacePrefix "rami";
   :versioning "no".
@@ -117,16 +118,20 @@
   :notes "Effort to create onology for VRA Core 3 model which has an idea of versioning on the major version. Date appears to be just copying W3C style. However, VRA Core 4 is current version and there doesn't appear to be and RDF version, and the WSX namespace is http://www.vraweb.org/vracore4.htm".
 <http://purl.org/vocab/bio/0.1/>
   vann:preferredNamespacePrefix "bio";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Updated 2003 to 2011 with many changes but always the 0.1 namespace".
 <http://www.essepuntato.it/2013/10/vagueness>
   vann:preferredNamespacePrefix "vag";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Updates made 2013-11 with no change to date or version in namespace".
 <http://www.semanticdesktop.org/ontologies/2007/03/22/nco>
   vann:preferredNamespacePrefix "nco";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <http://purl.org/dqm-vocabulary/v1/dqm>
   vann:preferredNamespacePrefix "dqm";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Created in 2011 and not updated since".
 <http://www.w3.org/2000/01/rdf-schema#>
   vann:preferredNamespacePrefix "rdfs";
   :versioning "stuck".
@@ -139,7 +144,7 @@
   :notes "Plabs to move to http://www.w3.org/ns/ssn/".
 <http://www.w3.org/2006/03/test-description>
   vann:preferredNamespacePrefix "test";
-  :versioning "unknown".
+  :versioning "stuck".
 <http://ontology.eil.utoronto.ca/ISO37120.owl>
   vann:preferredNamespacePrefix "iso37120";
   :versioning "no".
@@ -151,7 +156,7 @@
   :versioning "no".
 <http://www.w3.org/2007/05/powder-s>
   vann:preferredNamespacePrefix "wdrs";
-  :versioning "unknown".
+  :versioning "stuck".
 <http://rdvocab.info/ElementsGr3>
   vann:preferredNamespacePrefix "rdag3";
   :versioning "no".
@@ -160,22 +165,27 @@
   :versioning "no".
 <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry>
   vann:preferredNamespacePrefix "gm";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine>
   vann:preferredNamespacePrefix "vin";
-  :versioning "unknown".
+  :versioning "no-incidental";
+  :notes "Example ontology got OWL spec, apparent dates are simply incidental".
 <http://www.ordnancesurvey.co.uk/ontology/Topography/v0.1/Topography.owl>
   vann:preferredNamespacePrefix "ostop";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "404 and noted so in LOV".
 <http://www.w3.org/1999/xhtml/vocab>
   vann:preferredNamespacePrefix "xhv";
-  :versioning "unknown".
+  :versioning "no-incidental";
+  :notes "Date is really just incidental as part of W3C publication approach".
 <http://xmlns.com/wot/0.1/>
   vann:preferredNamespacePrefix "wot";
   :versioning "stuck".
 <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0>
   vann:preferredNamespacePrefix "spcm";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Created as part of project for project management, site dead.".
 <http://www.disit.org/km4city/schema>
   vann:preferredNamespacePrefix "km4c";
   :versioning "no".
@@ -200,25 +210,30 @@
   :versioning "stuck".
 <http://ns.inria.fr/ludo/v1/gamemodel#>
   vann:preferredNamespacePrefix "ludo-gm";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "Created in 2016 with what looks like the intention of versioning by some scheme. Oddly the description http://ns.inria.fr/ludo/v1/docs/gamemodel.html# say 0.01 but the ontology is v1".
 <http://ns.inria.fr/prissma/v2#>
   vann:preferredNamespacePrefix "prissma";
   :versioning "unknown".
 <http://www.w3.org/2006/time>
   vann:preferredNamespacePrefix "time";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date in namespace is incidental as part of W3C process".
 <http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage>
   vann:preferredNamespacePrefix "li";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://def.seegrid.csiro.au/isotc211/iso19115/2003/metadata>
   vann:preferredNamespacePrefix "md";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <https://w3id.org/i40/sto#>
   vann:preferredNamespacePrefix "sto";
   :versioning "no".
 <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo>
   vann:preferredNamespacePrefix "nfo";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <http://www.loc.gov/mads/rdf/v1>
   vann:preferredNamespacePrefix "mads";
   :versioning "yes-intended".
@@ -233,19 +248,23 @@
   :versioning "stuck".
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic>
   vann:preferredNamespacePrefix "h2o";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://www.w3.org/2000/10/swap/pim/doc>
   vann:preferredNamespacePrefix "doc";
   :versioning "stuck".
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic>
   vann:preferredNamespacePrefix "basic";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality>
   vann:preferredNamespacePrefix "dq";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://www.w3.org/2003/01/geo/wgs84_pos>
   vann:preferredNamespacePrefix "geo";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date versioning is just part of W3C process. The 84 in wgs84_pos refers to the reference datum and not to a version of the ontology".
 <https://w3id.org/i40/aml>
   vann:preferredNamespacePrefix "aml";
   :versioning "no".
@@ -254,43 +273,52 @@
   :versioning "stuck".
 <http://swrc.ontoware.org/ontology-07>
   vann:preferredNamespacePrefix "swrc";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "Website dead as of 2018-04-26 but intention seems to have the 07 in name space from the major and minor versions in 0.7.1 of ontology file".
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/>
   vann:preferredNamespacePrefix "tag";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Had 4 updates in 2005 that did not change version number, nothing since then".
 <http://www.essepuntato.it/2008/12/pattern>
   vann:preferredNamespacePrefix "pattern";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Created in 2008, updated to v1.4.2 in 2013. Apparent date in namespace is just part of following W3C publication style".
 <http://metadataregistry.org/uri/schema/RDARelationshipsGR2>
   vann:preferredNamespacePrefix "rdarel2";
   :versioning "no".
 <http://inference-web.org/2.0/ds.owl>
   vann:preferredNamespacePrefix "dso";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Looks like this was a new ontology for v2.0 of the project in 2009/2010 which hasn't moved on. There isn't and I don't was a 1.0 or 1.1, see http://inference-web.org/2.0/".
 <http://purl.org/spar/c4o>
   vann:preferredNamespacePrefix "c4o";
   :versioning "no".
 <http://www.semanticdesktop.org/ontologies/2007/08/15/nrl>
   vann:preferredNamespacePrefix "nrl";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <http://ns.inria.fr/ludo/v1/virtualcontext#>
   vann:preferredNamespacePrefix "ludo-vc";
   :versioning "unknown".
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal>
   vann:preferredNamespacePrefix "tm";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://ns.inria.fr/ludo/v1/gamepresentation#>
   vann:preferredNamespacePrefix "ludo-gp";
   :versioning "unknown".
 <http://www.w3.org/ns/odrl/2/>
   vann:preferredNamespacePrefix "odrl";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "ODRL 1 was pubished using XML Schema so as yet there is just one RDF namespace for ORDL which is /2/, following the major version. There have been minor revisions 2.1 and 2.2".
 <http://spi-fm.uca.es/spdef/models/deployment/swpm/1.0>
   vann:preferredNamespacePrefix "swpm";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Created as part of project for project management, site dead.".
 <http://purl.org/gen/0.1#>
   vann:preferredNamespacePrefix "gen";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Created 2012 and not updated since: https://github.com/joshhansen/vocab-gen".
 <http://www.ebusiness-unibw.org/ontologies/consumerelectronics/v1>
   vann:preferredNamespacePrefix "ceo";
   :versioning "unknown".
@@ -305,19 +333,23 @@
   :versioning "unknown".
 <http://spi-fm.uca.es/spdef/models/genericTools/vmm/1.0>
   vann:preferredNamespacePrefix "vmm";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Created as part of project for project management, site dead.".
 <http://www.w3.org/2003/12/exif/ns>
   vann:preferredNamespacePrefix "exif";
   :versioning "stuck".
 <http://spi-fm.uca.es/spdef/models/genericTools/wikim/1.0>
   vann:preferredNamespacePrefix "wikim";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Created as part of project for project management, site dead.".
 <http://www.w3.org/2004/09/fresnel>
   vann:preferredNamespacePrefix "fresnel";
-  :versioning "unknown".
+  :versioning "no-incidental";
+  :notes "Apparent date versioning part of W3C process".
 <http://www.w3.org/2011/http>
   vann:preferredNamespacePrefix "http";
-  :versioning "unknown".
+  :versioning "no-incidental";
+  :notes "Apparent date versioning part of W3C process".
 <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#>
   vann:preferredNamespacePrefix "rlog";
   :versioning "no".
@@ -353,7 +385,8 @@
   :versioning "stuck".
 <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature>
   vann:preferredNamespacePrefix "gf";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://www.w3.org/2001/XMLSchema>
   vann:preferredNamespacePrefix "xsd";
   :versioning "stuck".
@@ -380,22 +413,27 @@
   :versioning "unknown".
 <http://www.semanticdesktop.org/ontologies/2007/01/19/nie>
   vann:preferredNamespacePrefix "nie";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <http://www.w3.org/2002/07/owl>
   vann:preferredNamespacePrefix "owl";
   :versioning "stuck".
 <http://purl.org/rss/1.0>
   vann:preferredNamespacePrefix "rss";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "This namespace is tied to the RSS 1.0 spec but since the various RSS specs were not sensibly connected, this is essentially stuck because an equivalent or RSS 2.0 would likely not share the same base".
 <http://purl.org/linked-data/sdmx/2009/code>
   vann:preferredNamespacePrefix "sdmx-code";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date versioning was incidental, project has moved on to entirely new namespace http://purl.org/linked-data/cube# which does not include versioning.".
 <http://www.w3.org/TR/2003/PR-owl-guide-20031215/food>
   vann:preferredNamespacePrefix "fowl";
-  :versioning "unknown".
+  :versioning "no-incidental";
+  :notes "Example ontology got OWL spec, apparent dates are simply incidental".
 <http://privatealpha.com/ontology/certification/1#>
   vann:preferredNamespacePrefix "acrt";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Created 2004 but appears unmaintained.".
 <http://onto.dm2e.eu/schemas/dm2e>
   vann:preferredNamespacePrefix "dm2e";
   :versioning "no".
@@ -404,13 +442,16 @@
   :versioning "no".
 <http://www.w3.org/2006/timezone>
   vann:preferredNamespacePrefix "tzont";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date versioning incidental according to W3C publicaton approach".
 <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent>
   vann:preferredNamespacePrefix "ext";
-  :versioning "stuck".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling>
   vann:preferredNamespacePrefix "sam";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://brt.basisregistraties.overheid.nl/def/top10nl>
   vann:preferredNamespacePrefix "brt";
   :versioning "no".
@@ -440,7 +481,8 @@
   :versioning "unknown".
 <http://www.semanticdesktop.org/ontologies/2007/04/02/ncal>
   vann:preferredNamespacePrefix "ncal";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Project ended, moribund, one dated version published".
 <http://www.w3.org/2003/11/swrl>
   vann:preferredNamespacePrefix "swrl";
   :versioning "stuck".
@@ -459,4 +501,3 @@
 <http://purl.org/wf4ever/ro>
   vann:preferredNamespacePrefix "ro";
   :versioning "no".
-
