@@ -214,7 +214,8 @@
   :notes "Created in 2016 with what looks like the intention of versioning by some scheme. Oddly the description http://ns.inria.fr/ludo/v1/docs/gamemodel.html# say 0.01 but the ontology is v1".
 <http://ns.inria.fr/prissma/v2#>
   vann:preferredNamespacePrefix "prissma";
-  :versioning "unknown".
+  :versioning "yes";
+  :notes "There is a v1 at http://ns.inria.fr/prissma/v1/prissma_v1.html with namespace http://ns.inria.fr/prissma/v1#. This namespace corresponds with v2 at http://ns.inria.fr/prissma/v2/prissma_v2.html".
 <http://www.w3.org/2006/time>
   vann:preferredNamespacePrefix "time";
   :versioning "no";
@@ -239,7 +240,8 @@
   :versioning "yes-intended".
 <http://semanticweb.cs.vu.nl/2009/11/sem/>
   vann:preferredNamespacePrefix "sem";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date versioning seems incidental from W3C-like publication arrangement".
 <http://www.loc.gov/premis/rdf/v1>
   vann:preferredNamespacePrefix "premis";
   :versioning "yes-intended".
@@ -299,14 +301,16 @@
   :notes "Project ended, moribund, one dated version published".
 <http://ns.inria.fr/ludo/v1/virtualcontext#>
   vann:preferredNamespacePrefix "ludo-vc";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "Created in 2016 with what looks like the intention of versioning by some scheme. Oddly the description http://ns.inria.fr/ludo/v1/docs/gamemodel.html# say 0.01 but the ontology is v1".
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal>
   vann:preferredNamespacePrefix "tm";
   :versioning "no";
   :notes "Ontology description states that it was intended (though not carried out) to publish the ontology with namespace http://def.isotc211.org/".
 <http://ns.inria.fr/ludo/v1/gamepresentation#>
   vann:preferredNamespacePrefix "ludo-gp";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "Created in 2016 with what looks like the intention of versioning by some scheme. Oddly the description http://ns.inria.fr/ludo/v1/docs/gamemodel.html# say 0.01 but the ontology is v1".
 <http://www.w3.org/ns/odrl/2/>
   vann:preferredNamespacePrefix "odrl";
   :versioning "yes-intended";
@@ -321,16 +325,20 @@
   :notes "Created 2012 and not updated since: https://github.com/joshhansen/vocab-gen".
 <http://www.ebusiness-unibw.org/ontologies/consumerelectronics/v1>
   vann:preferredNamespacePrefix "ceo";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Seems now to resolve to http://wiki.goodrelations-vocabulary.org/Vocabularies which has circular link. No hint of specification versioning".
 <http://purl.org/linked-data/sdmx/2009/dimension>
   vann:preferredNamespacePrefix "sdmx-dimension";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Looks just like a W3C style publication date for the initial ontology. No versioning information in the ontology".
 <http://www.w3.org/2006/time-entry>
   vann:preferredNamespacePrefix "te";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent year versioning is just W3C publication style".
 <http://ns.inria.fr/nicetag/2010/09/09/voc>
   vann:preferredNamespacePrefix "ntag";
-  :versioning "unknown".
+  :versioning "yes";
+  :notes "Ontology says it is version 0.5. Version 0.4 is found at http://ns.inria.fr/nicetag/2009/09/25/voc# though no link to that from 0.5. No hint of 0.1/2/3". 
 <http://spi-fm.uca.es/spdef/models/genericTools/vmm/1.0>
   vann:preferredNamespacePrefix "vmm";
   :versioning "stuck-dead";
@@ -355,31 +363,36 @@
   :versioning "no".
 <http://ns.inria.fr/s4ac/v2>
   vann:preferredNamespacePrefix "s4ac";
-  :versioning "unknown".
+  :versioning "yes";
+  :notes "This is v2, v1 is at http://ns.inria.fr/s4ac/v1#".
 <http://www.w3.org/2003/06/sw-vocab-status/ns>
   vann:preferredNamespacePrefix "vs";
   :versioning "stuck".
 <http://www.w3.org/2006/vcard/ns>
   vann:preferredNamespacePrefix "vcard";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent year versioning is just incidental based on W3C publication process. There have been revisions to vcard, https://www.w3.org/TR/vcard-rdf/, which retain this namespace". 
 <http://www.biopax.org/release/biopax-level3.owl>
   vann:preferredNamespacePrefix "biopax";
   :versioning "no".
 <http://bblfish.net/work/atom-owl/2006-06-06/>
   vann:preferredNamespacePrefix "awol";
-  :versioning "unknown".
+  :versioning "yes";
+  :notes "Date versioning is used for 5 previous revisions, see 'Recent Changes' in http://bblfish.net/work/atom-owl/2006-06-06/AtomOwl.html".
 <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl>
   vann:preferredNamespacePrefix "geof";
-  :versioning "unknown".
+  :versioning "stuck-dead".
 <http://guava.iis.sinica.edu.tw/r4r>
   vann:preferredNamespacePrefix "r4r";
   :versioning "no".
 <http://purl.org/swan/2.0/discourse-relationships/>
   vann:preferredNamespacePrefix "dr";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "404 as of 2018-04-26. Purl for 1.0 or 1.1 does not exist".
 <http://www.w3.org/2011/content>
   vann:preferredNamespacePrefix "cnt";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent versioning is just part of W3C publication process, updates through https://www.w3.org/TR/2017/NOTE-Content-in-RDF10-20170202/ retain the same namespace".
 <http://www.w3.org/2000/10/swap/pim/contact>
   vann:preferredNamespacePrefix "con";
   :versioning "stuck".
@@ -392,10 +405,12 @@
   :versioning "stuck".
 <http://www.ics.forth.gr/isl/MarineTLO/v4/marinetlo.owl>
   vann:preferredNamespacePrefix "mtlo";
-  :versioning "unknown".
+  :versioning "yes";
+  :notes "Versions 1, 2 and 3 also available, it appears that versioning of the namespace was introduced in v3".
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1>
   vann:preferredNamespacePrefix "d2rq";
-  :versioning "unknown".
+  :versioning "stuck";
+  :notes "Current ontology http://d2rq.org/terms/d2rq.ttl says it is v0.8".
 <http://purl.org/wf4ever/wfprov>
   vann:preferredNamespacePrefix "wfprov";
   :versioning "no".
@@ -410,7 +425,8 @@
   :versioning "no".
 <http://www.essepuntato.it/2013/03/cito-functions>
   vann:preferredNamespacePrefix "citof";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Apparent date versioning is incidental based on W3C style publication. Current version is as 2018-04-26 claims to be '1.2 - aligned with CiTO 2.5.1'".
 <http://www.semanticdesktop.org/ontologies/2007/01/19/nie>
   vann:preferredNamespacePrefix "nie";
   :versioning "stuck-dead";
@@ -460,7 +476,8 @@
   :versioning "stuck".
 <http://www.lexinfo.net/ontology/2.0/lexinfo>
   vann:preferredNamespacePrefix "lexinfo";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "There was apparently a v1 with a different basis but it seems the intention is that the namespace is tied to the version although there is no 2.1 or 3.0".
 <http://www.semanticweb.org/ontologies/2008/11/OntologySecurity.owl>
   vann:preferredNamespacePrefix "ontosec";
   :versioning "stuck".
@@ -472,13 +489,15 @@
   :versioning "no".
 <http://ontology.it/itsmo/v1>
   vann:preferredNamespacePrefix "itsmo";
-  :versioning "unknown".
+  :versioning "stuck-dead";
+  :notes "Had a number of revisions in 2012 but no version change, nothing since then and currently redirects to a generic page".
 <http://www.w3.org/2004/02/skos/core>
   vann:preferredNamespacePrefix "skos";
   :versioning "stuck".
 <http://ns.inria.fr/ludo/v1/xapi>
   vann:preferredNamespacePrefix "ludo-xapi";
-  :versioning "unknown".
+  :versioning "yes-intended";
+  :notes "Created in 2016 with what looks like the intention of versioning by some scheme. Oddly the description http://ns.inria.fr/ludo/v1/docs/gamemodel.html# say 0.01 but the ontology is v1".
 <http://www.semanticdesktop.org/ontologies/2007/04/02/ncal>
   vann:preferredNamespacePrefix "ncal";
   :versioning "stuck-dead";
@@ -494,10 +513,12 @@
   :versioning "no".
 <http://purl.org/net/vocab/2004/03/label>
   vann:preferredNamespacePrefix "label";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "503 as of 2018-04-26, looks like date is from W3C style publication".
 <http://www.w3.org/2003/g/data-view>
   vann:preferredNamespacePrefix "grddl";
-  :versioning "unknown".
+  :versioning "no";
+  :notes "Part of W3C recommendation and current version http://www.w3.org/TR/2007/REC-grddl-20070911/ retains original namespace".
 <http://purl.org/wf4ever/ro>
   vann:preferredNamespacePrefix "ro";
   :versioning "no".
